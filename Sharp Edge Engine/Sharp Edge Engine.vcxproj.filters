@@ -1,0 +1,98 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Objects">
+      <UniqueIdentifier>{5291b5cc-c9df-4d71-a938-25dd607f7b32}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Renderer">
+      <UniqueIdentifier>{65fce800-1b2b-4b46-96bc-3b3e5986c977}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Components">
+      <UniqueIdentifier>{b9e636af-1b3a-4a5f-be37-e0100e027789}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="shaders">
+      <UniqueIdentifier>{e87073a5-4fb6-43f3-b115-54100f4e0e82}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="shaders\Pixel">
+      <UniqueIdentifier>{66021e2d-7e22-4b0b-89df-c0cfac6a1553}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="shaders\Vertex">
+      <UniqueIdentifier>{a74ed51b-c27d-4523-bd61-0d36c58d6a14}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="shaders\Geometry">
+      <UniqueIdentifier>{a645582d-f5b3-424a-ae6c-ee706c047fd9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="shaders\Compute">
+      <UniqueIdentifier>{a966173f-4fb0-4e5e-9771-161f0328a5f8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Managers">
+      <UniqueIdentifier>{3b596b22-bb5a-42e2-b9ef-7883a2ffa2ce}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Managers\Object Manager">
+      <UniqueIdentifier>{1e9b1f34-8898-4ac1-b1d9-3793368c5491}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="Main.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Renderer\DirectXRenderer.cpp">
+      <Filter>Renderer</Filter>
+    </ClCompile>
+    <ClCompile Include="Renderer\XTime.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Objects\Base Objects\IObject.cpp">
+      <Filter>Objects</Filter>
+    </ClCompile>
+    <ClCompile Include="stdafx.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Components\IComponent.cpp">
+      <Filter>Components</Filter>
+    </ClCompile>
+    <ClCompile Include="Managers\ObjectManager.cpp">
+      <Filter>Managers\Object Manager</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Renderer\DirectXRenderer.h">
+      <Filter>Renderer</Filter>
+    </ClInclude>
+    <ClInclude Include="Renderer\XTime.h">
+      <Filter>Source Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Objects\Base Objects\IObject.h">
+      <Filter>Objects</Filter>
+    </ClInclude>
+    <ClInclude Include="stdafx.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Components\IComponent.h">
+      <Filter>Components</Filter>
+    </ClInclude>
+    <ClInclude Include="Managers\ObjectManager.h">
+      <Filter>Managers\Object Manager</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <FxCompile Include="Renderer\Shaders\AlwaysLitVertex.hlsl">
+      <Filter>shaders\Vertex</Filter>
+    </FxCompile>
+    <FxCompile Include="Renderer\Shaders\AlwaysLitPixel.hlsl">
+      <Filter>shaders\Pixel</Filter>
+    </FxCompile>
+  </ItemGroup>
+</Project>

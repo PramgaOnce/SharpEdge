@@ -1,0 +1,11 @@
+﻿  compilation object save succeeded; see F:\Sharp Edge\Sharp Edge Engine\x64\Release\AlwaysLitPixel.cso
+  compilation object save succeeded; see F:\Sharp Edge\Sharp Edge Engine\x64\Release\AlwaysLitVertex.cso
+  stdafx.cpp
+  IComponent.cpp
+  Main.cpp
+  IObject.cpp
+  DirectXRenderer.cpp
+  XTime.cpp
+  Generating code
+  Finished generating code
+  Sharp Edge Engine.vcxproj -> F:\Sharp Edge\Sharp Edge Engine\x64\Release\Sharp Edge Engine.exe
